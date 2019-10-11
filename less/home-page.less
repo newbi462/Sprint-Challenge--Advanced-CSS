@@ -79,3 +79,38 @@
 .walk .btn {
   .btnminin(1.8rem,bold,0.5em 20px,5px,@btn-bg-color,@sea-shell,30%);
 }
+
+/*phone view tweeks*/
+.home .intro .spacepic {
+  @media @phone {
+    border-radius: 5px;
+    width: 100%;
+  }
+}
+
+.home .space-images {
+  @media @phone {
+    border-radius: 10px;
+    width: 100%;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    img {
+      width: 85%;
+      margin: 20px auto;
+      border-radius: 10px;
+      justify-content: center;
+    }
+    .hide {
+      display: none;
+    }
+  }
+}
+
+.home .walk {
+  @media @phone {
+    flex-flow: column;
+    width: 100%;
+  }
+}
