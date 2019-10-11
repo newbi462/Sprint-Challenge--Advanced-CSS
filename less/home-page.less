@@ -11,7 +11,7 @@
     p {
       padding:0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -64,7 +64,7 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -73,3 +73,71 @@
     }
   }
 }// home
+
+
+/*Buttons and other tweeks*/
+.walk .btn {
+  .btnminin(1.8rem,bold,0.5em 20px,5px,@btn-bg-color,@sea-shell,30%);
+}
+
+/*phone view tweeks*/
+.home .intro .spacepic {
+  margin-top: 106px;
+  border-radius: 5px;
+  @media @phone {
+    width: 100%;
+  }
+}
+
+.home .space-images {
+  @media @phone {
+    border-radius: 10px;
+    width: 100%;
+    flex-flow: column;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    img {
+      width: 85%;
+      margin: 20px auto;
+      border-radius: 10px;
+      justify-content: center;
+    }
+    .hide {
+      display: none;
+    }
+  }
+}
+
+.home .walk {
+  @media @phone {
+    margin: 30px 0 0 0;
+    flex-flow: column;
+    width: 100%;
+    padding: 20px 0;
+    .walk-img {
+      order: 1;
+      width: 85%;
+      margin: 0 auto;
+    }
+    .walk-text {
+      width: 85%;
+      order: 2;
+      margin: 20px auto 0 auto;
+    }
+    .btn {
+      width: 100%;
+      order: 3;
+      text-align: center;
+      padding: 1.5em;
+    }
+  }
+}
+
+footer {
+  @media @phone {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+  }
+}

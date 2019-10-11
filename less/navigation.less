@@ -1,1 +1,27 @@
 // Navigation code here
+.navbox {
+  h1 {
+//    width: 100%;
+    font-size: 4.0rem;
+    text-align: center;
+    padding: 0.25em 0;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  nav a {
+    .navlinksmix();
+    &:hover {
+      background: @btn-bg-color;
+      color: @sea-shell;
+    }
+  }
+}
+
+.forcebackgroundoverflow {
+  .overflowbackgrounmix();
+  position: fixed;
+  z-index: 999;
+}
