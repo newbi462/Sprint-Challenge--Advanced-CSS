@@ -185,7 +185,11 @@ p {
 }
 .forcebackgroundoverflow {
   background: #F6F6F6;
+  background-color: rgba(246, 246, 246, 0.3);
+  /*opacity for the stretch*/
   width: 100%;
+  position: fixed;
+  z-index: 999;
 }
 footer {
   color: #22283B;
@@ -263,6 +267,9 @@ footer {
   color: #22283A;
 }
 /*phone view tweeks*/
+.home .intro .spacepic {
+  margin-top: 106px;
+}
 @media (max-width: 500px) {
   .home .intro .spacepic {
     border-radius: 5px;
