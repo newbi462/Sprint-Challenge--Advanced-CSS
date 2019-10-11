@@ -1,3 +1,4 @@
+/*NOt really needed but for MVP mixins*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -250,6 +251,10 @@ footer {
   background: #22283A;
   color: #F1F1F1;
   width: 30%;
+}
+.walk .btn:hover {
+  background: #F1F1F1;
+  color: #22283A;
 }
 /*
 1.variables.less
