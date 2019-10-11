@@ -185,7 +185,7 @@ p {
 }
 .forcebackgroundoverflow {
   background: #F6F6F6;
-  background-color: rgba(246, 246, 246, 0.3);
+  background-color: rgba(246, 246, 246, 0.8);
   /*opacity for the stretch*/
   width: 100%;
   position: fixed;
