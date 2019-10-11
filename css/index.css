@@ -269,10 +269,10 @@ footer {
 /*phone view tweeks*/
 .home .intro .spacepic {
   margin-top: 106px;
+  border-radius: 5px;
 }
 @media (max-width: 500px) {
   .home .intro .spacepic {
-    border-radius: 5px;
     width: 100%;
   }
 }
